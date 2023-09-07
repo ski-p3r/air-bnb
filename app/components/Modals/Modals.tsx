@@ -90,7 +90,7 @@ const Modals: React.FC<ModalsProps> = ({
                 >
                   <IoMdClose size={18} />
                 </button>
-                <div className="text-lg font-semibold">Login Modal</div>
+                <div className="text-lg font-semibold">{title}</div>
               </div>
             </div>
           </div>
