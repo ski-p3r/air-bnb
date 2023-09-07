@@ -80,7 +80,10 @@ const Modals: React.FC<ModalsProps> = ({
                 }
             `}
           >
-            <div className="translate h-full lg:h-auto md:h-auto border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none"></div>
+            <div className="translate h-full lg:h-auto md:h-auto border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+              {/* HEADER */}
+              <div className="flex items-center p-6 rounded-t justify-center relative border-b-[1px]"></div>
+            </div>
           </div>
         </div>
       </div>
