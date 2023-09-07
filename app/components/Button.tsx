@@ -17,7 +17,11 @@ const Button: React.FC<ButtonProps> = ({
   small,
   icon,
 }) => {
-  return <div>Button</div>;
+  return (
+    <div>
+      <button>{label}</button>
+    </div>
+  );
 };
 
 export default Button;
